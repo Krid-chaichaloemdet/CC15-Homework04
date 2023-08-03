@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Document</title>
+
+   
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        nav  {
+          position: absolute;
+          top: 5px;
+          right: 0;
+          color: aliceblue;
+          font-size: larger;
+
+        }
+        main {
+            display: flex;
+            flex-direction: column;
+        
+            /* background-color: aqua; */
+           align-items: center;
+        }
+        button {
+            margin-bottom: 20px;
+
+        }
+        .div1 {
+            width: 500px;
+            height: 10px;
+            background-color: rgb(244, 244, 248);
+            position: relative;
+            margin-bottom: 10px;
+        }
+        .div2 {
+            background-color: rgb(32, 185, 77);
+            width: 60%;
+            height: 100%;
+
+
+        }
+        .div1::before {
+            content: "0%";
+            position: absolute;
+            top: 10px;
+            color: aliceblue;
+            
+            
+        }
+        .div1::after {
+            content: '100%';
+            position: absolute;
+            right: 0px;
+            color: aliceblue;
+
+        }
+        body {
+            background: url(pic.webp) no-repeat;
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-size: cover ;
+        }
+        p {
+            position: absolute;
+            bottom: 0;
+            color: beige;
+        }
+        header {
+            text-align: center;
+            font-size: 50px;
+            color: aliceblue;
+            margin-bottom: 10px;
+        }
+        .site1 {
+            color: aliceblue;
+            margin-bottom: 10px;
+        }
+        .icon1 {
+            gap: px;
+            font-size: 30px;
+            color: rgb(34, 130, 214);
+        }
+        a {
+            text-decoration: none;
+            color: aliceblue;
+            margin-right: 10px;
+   
+        }
+
+    </style>
+</head>
+
+
+<body>
+    <nav><a href="#">HOME</a></nav>
+    <main>
+        <header>Under  <br> construction</header>
+        <div class="site1">SITE NEARLY READY</div>
+        <div class="div1">
+            <div class="div2"></div>
+        </div>
+
+        <button>Notify Me!</button>
+        <div class="icon1">   
+            <a href="#">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a href="#">
+                <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a href="#">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="#">
+                <i class="fa-solid fa-envelope"></i>
+            </a>
+        </div>
+
+    
+    </main>
+    <p>2023 by Under construction</p>
+
+    
+</body>
+</html>
